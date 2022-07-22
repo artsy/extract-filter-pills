@@ -1,6 +1,6 @@
-import { Metric } from "./types"
-import { localizeDimension } from "./utils/localizeDimension"
-import { parseRange } from "./utils/parseRange"
+import { Metric } from "../types"
+import { localizeDimension } from "./localizeDimension"
+import { parseRange } from "./parseRange"
 
 export const extractCustomSizeLabel = ({
   prefix,
