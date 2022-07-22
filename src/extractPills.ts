@@ -7,7 +7,7 @@ import { extractPriceLabel } from "./extractPriceLabel"
 import { extractCustomSizeLabel } from "./extractCustomSizeLabel"
 import { getPredefinedSizesByMetric } from "./getPredefinedSizesByMetric"
 import { Entity, OptionItem, Pill } from "./types"
-import { getAggregationItems } from "./getAggregationItems"
+import { getAggregationItems } from "./utils/getAggregationItems"
 
 export const extractFromAggregation = (entity: Entity) => {
   const aggregationByValue = getAggregationItems(entity.payload?.aggregation!)

@@ -1,4 +1,4 @@
-import { Aggregation, AggregationCount } from "./types"
+import { Aggregation, AggregationCount } from "../types"
 
 export const getAggregationItems = (aggregation: Aggregation) => {
   const result: Record<string, AggregationCount> = {}
