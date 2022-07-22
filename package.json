@@ -4,6 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "lint": "eslint --ext ts,tsx --ignore-pattern node_modules/",
+    "type-check": "tsc",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "prettier": {
@@ -15,5 +17,11 @@
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.30.7",
+    "@typescript-eslint/parser": "^5.30.7",
+    "eslint": "^8.20.0",
+    "typescript": "^4.7.4"
+  }
 }
